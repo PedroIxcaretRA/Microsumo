@@ -23,11 +23,14 @@ Si no tienes experiencia soldando PCBs, te recomiendo tomarlo con calma y tener 
 Por ultimo, la placa tiene como mCU un Atmega328p-au por lo que puedes programar usando el IDE de Arduino. En la sección de código explico sobre como cargar el programa usando un Arduino nano.
 
 **Nota: Si usas cautín, te recomiendo tener malla desoldadora de cobre.**
+
 **Nota: El esquematico pdf y el gerber son diferentes pero es basicamente lo mismo**
 
 ## Esquemático
 
 [***Los componentes se encuentran en el BOOM***](BOM_Microsumo_30_11_2024_2024-12-15.csv)
+
+[***Archivo completo en el PDF Schematic_Microsumo***](Schematic_Microsumo_30_11_2024_2024-12-15.pdf)
 
 En la primera parte, tenemos dos headers que nos servirán para la conexión de las baterías (batería de Li-ion 3.7V a 140mAh) y el interruptor. Al momento de diseñar la PCB, sugiero que estos headers estén lo más cerca posible, ya que se requiere un jumper para la suma de voltajes.
 
