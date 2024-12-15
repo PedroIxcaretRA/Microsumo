@@ -25,6 +25,9 @@ Por ultimo, la placa tiene como mCU un Atmega328p-au por lo que puedes programar
 **Nota: Si usas cautín, te recomiendo tener malla desoldadora de cobre.**
 
 ## Esquemático
+###
+
+
 
 ## PinOut
 
