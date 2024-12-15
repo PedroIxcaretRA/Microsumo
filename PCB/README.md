@@ -56,6 +56,8 @@ La sexta y última parte corresponde a nuestro controlador de motores, que es el
 
 ![la_TB](esquematico_part6.png)
 
+[***Esquemático del Arduino pro mini***]( https://www.arduino.cc/en/uploads/Main/Arduino-Pro-Mini-schematic.pdf)
+
 ## PinOut
 
 ## Programación
