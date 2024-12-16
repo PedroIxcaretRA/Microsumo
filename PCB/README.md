@@ -72,7 +72,7 @@ En la etapa de regulación consiste en soldar dos baterías con dos header para 
 
 ![ERegulacion](Figuras/Regulacion_voltaje.png)
 
-Para cargar el programa en la PCB, necesitarás un Arduino Nano. Solo se utilizarán los pines RST, GND y RX. Conecta el Arduino Nano a la computadora y carga el programa como lo haría normalmente. Durante el proceso, el LED asociado al pin 13 de cada placa parpadeara, y cuando en el IDE de Arduino aparezca el mensaje de que la carga ha finalizado, el proceso habrá concluido.
+Para cargar el programa a la PCB, necesitarás un Arduino Nano. Solo se utilizarán los pines RST, GND y RX. Conecta el Arduino Nano a la computadora y carga el programa como lo haría normalmente. Durante el proceso, el LED asociado al pin 13 de cada placa parpadeara, y cuando en el IDE de Arduino aparezca el mensaje de que la carga ha finalizado, el proceso habrá concluido.
 
 ![CP](Figuras/CP.png)
 
@@ -80,3 +80,15 @@ Para cargar el programa en la PCB, necesitarás un Arduino Nano. Solo se utiliza
 
 ### PINOUT
 
+No hay mucho que agregar sobre el Pinout, ya que está serigrafiado, lo que facilita identificar a qué pin está asociado cada componente. Sin embargo, a continuación se detallan algunos puntos clave por si surge alguna duda:
+
+- Recuadro color rosa: Contiene un botón pulsador (PBS) de propósito general, el cual está asociado al pin D2.
+- Recuadro color amarillo: Incluye un LED conectado al pin D13.
+- Recuadro color rojo: Está asociado a los pines que se conectan directamente al controlador de motores.
+- Recuadro color naranja: Corresponde a los pines de entrada para los sensores. Aunque comúnmente se utilizan como pines analógicos, también pueden configurarse como entradas digitales, es decir, tienen - - -- funcionalidad dual. Los pines asociados son D14, D15, D16, D17, D18 y D19.
+- Recuadro color morado: Contiene los LEDs RGB, que funcionan con un único pin de control, el D10.
+- Recuadro color azul: Corresponde al arrancador, asociado al pin D12.
+
+![PINOUT](Figuras/PINOUT.png)
+
+Al final de tener toda esta explicación la PCB debería verse de la siguiente manera. 
