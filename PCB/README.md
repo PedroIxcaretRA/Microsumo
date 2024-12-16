@@ -34,27 +34,27 @@ Por ultimo, la placa tiene como mCU un Atmega328p-au por lo que puedes programar
 
 En la primera parte, tenemos dos headers que nos servirán para la conexión de las baterías (batería de Li-ion 3.7V a 140mAh) y el interruptor. Al momento de diseñar la PCB, sugiero que estos headers estén lo más cerca posible, ya que se requiere un jumper para la suma de voltajes.
 
-![Conexión baterias](esquematico_part1.png)
+![Conexión baterias](Figuras/esquematico_part1.png)
 
 En la segunda parte, tenemos el circuito de regulación de voltaje con un 7805. Esta sección incluye un LED que nos indicará cuando la PCB esté energizada.
 
-![Regulador](esquematico_part2.png)
+![Regulador](Figuras/esquematico_part2.png)
 
 La tercera parte es nuestro microcontrolador (MCU), el IC Atmega328p-au, con los componentes necesarios para que funcione de manera eficiente. Aquí es importante prestar atención, ya que si queremos añadir el pin de DTR, se debe colocar una conexión con un capacitor (0.1µF) entre el RPB y la resistencia de 10k, y la otra conexión al pin asociado al DTR. El SPB en el código estará configurado como PULLUP, por lo que está conectado de esta manera. Además, si se quiere habilitar el pin TX, se debe colocar un indicador que lo mande a ese pin (31).
 
-![mCU](esquematico_part3.png)
+![mCU](Figuras/esquematico_part3.png)
 
 En la cuarta parte tenemos el arrancador y el RGB. Podemos agregar otro RGB, solo necesitamos habilitar el pin DI y conectarlo al DO de nuestro nuevo RGB; lo demás es igual. Si queremos agregar el pin RDY de nuestro arrancador, podemos asociarlo a un pin disponible de nuestro mCU.
 
-![Arr](esquematico_part4.png)
+![Arr](Figuras/esquematico_part4.png)
 
 La quinta parte corresponde a la alimentación y señal de nuestros sensores. En P1 podría agregarse el pin TX y DTR, y es donde se programara nuestra PCB.
 
-![Alimentación](esquematico_part5.png)
+![Alimentación](Figuras/esquematico_part5.png)
 
 La sexta y última parte corresponde a nuestro controlador de motores, que es el TB6612FNG, un componente bastante eficiente para controlar motores DC.
 
-![la_TB](esquematico_part6.png)
+![la_TB](Figuras/esquematico_part6.png)
 
 [***Esquemático del Arduino pro mini***]( https://www.arduino.cc/en/uploads/Main/Arduino-Pro-Mini-schematic.pdf)
 
