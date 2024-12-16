@@ -4,8 +4,8 @@ Obtener una PCB funcional para cualquier prototipo que estés desarrollando pued
 ## Tabla de Contenidos
 1. [Descripción](#descripción)
 2. [Esquemático](#esquemático)
-3. [PinOut](#pinout)
-4. [Programación](#programación)
+3. [PCB MOCteam](#pcb-mocteam)
+   1. [PINOUT](#pinout)
 
 ## Descripción
 Como mencioné anteriormente, esta es una tarea significativa. Si logras encontrar una PCB comercial, el proceso será mucho más sencillo, ya que alguien más habrá realizado este trabajo por ti.
@@ -56,10 +56,27 @@ La sexta y última parte corresponde a nuestro controlador de motores, que es el
 
 ![la_TB](Figuras/esquematico_part6.png)
 
-[***Esquemático del Arduino pro mini***]( https://www.arduino.cc/en/uploads/Main/Arduino-Pro-Mini-schematic.pdf)
+[***Esquemático del Arduino pro mini***](https://www.arduino.cc/en/uploads/Main/Arduino-Pro-Mini-schematic.pdf)
 
-## PinOut
+## PCB MOCteam
 
-## Programación
+Si has decidido mandar a fabricar la opción que te presenté, aquí te explicaré qué es y dónde está cada entrada y salida de la tarjeta.
 
-**Nota: Si no se carga el programa, puede ser debido a que el mCU no tiene el bootloader, en cuyo caso tendrás que quemarlo. También puede ser que el resonador no esté bien soldado.**
+Una vez fabricada y ensamblada, tendrás las PCBs como se muestra a continuación, ya con todos los componentes soldados. Si observas, cada pin está identificado mediante **serigrafía**, lo que facilita saber a qué está asociado. 
+
+*En la figura de abajo no contiene componentes para una mejor compresión.*
+
+![PCB](Figuras/PCB_MICRO_3D.png)
+
+En la etapa de regulación consiste en soldar dos baterías con dos header para poder cargarlas, se debe añadir un jumper en la parte externa de los headers. Además del regulador, un led como indicador, compontes pasivos y un diodo para protección de la tarjeta.
+
+![ERegulacion](Figuras/Regulacion_voltaje.png)
+
+Para cargar el programa en la PCB, necesitarás un Arduino Nano. Solo se utilizarán los pines RST, GND y RX. Conecta el Arduino Nano a la computadora y carga el programa como lo haría normalmente. Durante el proceso, el LED asociado al pin 13 de cada placa parpadeara, y cuando en el IDE de Arduino aparezca el mensaje de que la carga ha finalizado, el proceso habrá concluido.
+
+![CP](Figuras/CP.png)
+
+**Nota: Si no se carga el programa, puede ser debido a que el mCU no tiene el [bootloader](https://tutoriales.rantec.mx/manual-para-cargar-bootloader-en-arduino/), en cuyo caso tendrás que quemarlo. También puede ser que el resonador no esté bien soldado.**
+
+### PINOUT
+
