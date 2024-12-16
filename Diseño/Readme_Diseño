@@ -1,3 +1,0 @@
-El archivo base_microsumo_pro.rar contiene una base diseñada en SolidWorks (versión 2019), destinada a ser fabricada en latón. Puedes enviarla a maquilar en JLCPCB, PCBWAY, o cualquier otro lugar. Este archivo es totalmente modificable y lo puedes ajustar según tus necesidades.
-
-No es fundamental usar una base de latón en un microsumo, versiones anteriores que he realizado, la carcasa del robot ha sido completamente de PLA con peso muerto (plomo), ha funcionado bastante bien, así que si prefieres usar PLA y plomo es una opción bastante viable, en el archivo Microsumo_v10.rar es una idea de lo que usaba. Igual es totalmente modificable.
