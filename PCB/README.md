@@ -91,4 +91,6 @@ No hay mucho que agregar sobre el Pinout, ya que está serigrafiado, lo que faci
 
 ![PINOUT](Figuras/PINOUT.png)
 
-Al final de tener toda esta explicación la PCB debería verse de la siguiente manera. 
+Al final de toda esta explicación la PCB debería verse de la siguiente manera. 
+
+![PCBfinal](Figuras/PCB_montada.jpg)
