@@ -130,17 +130,27 @@ Tapa frontal:
 
  - La tapa frontal puede cortarse con la ayuda de un esmeril angular 4" (o como lo conozcas) y, utilizando un Dremel, se realiza el corte en la sección destinada para los sensores.
 
+![tapacor](Figuras/IMG-20231205-WA0007.jpg)
+
  - Se presenta la tapa y se enciende el robot para verificar que los sensores no presenten problemas de interferencia con esta. Se sugiere pintar la tapa de negro por ambos lados para evitar reflejos o interferencias ópticas.
+
+![tapacor2](Figuras/IMG-20231205-WA0018.jpg)
 
 La tapa se fija a las paredes, usando Kola-Loka.
 
 Ya se han colocado las paredes, motores, sensores, baterías, tapa y llantas; lo único que resta es colocar la navaja.
+
+![Montado](Figuras/IMG-20240125-WA0005.jpg)
 
 Es importante elegir el tipo de navaja adecuado. En las primeras versiones del prototipo, se utilizaban navajas de cúter pequeño, las cuales se cortaban a la medida de 50 mm. Más adelante, un compañero de competencia me regaló una navaja Kanzawa de 50 mm. Desde entonces, he utilizado este tipo de navajas, que son de origen japonés y un poco complicadas de conseguir, pero no imposible.
 
 Existen otras opciones, pero como con todo lo mencionado en este repositorio, dependerá del ingenio y creatividad que se apliquen al proyecto.
 
 Para colocar la navaja a la base se utiliza cinta doble cara. Hay en el mercado bastante opciones, aqui dare dos opciones, cinta que se consigue en [Walmart Cinta de Montaje Ceys Montack Doble Cara Rojo](https://super.walmart.com.mx/ip/cinta-de-montaje-ceys-montack-doble-cara-rojo-2-5-m/00841151977240?adBanner=super&adStoreId=0000009999&wl13=5727&utm_source=google&utm_medium=cpc&utm_advertiser=wmod_lia-multi-channel-all&utm_campaign=wmod_lf_sem_sitio_conversion_ao_shopping-lia-multi-channel-all&utm_term=_&utm_content=&gad_source=1&gclid=CjwKCAiAgoq7BhBxEiwAVcW0LGG02QXZycH2BXxB4lqzJFFQHLYqDIytriO6XkfnCFHCVhs3XfGuQRoCTu0QAvD_BwE) y en Aliexpress [Cinta de doble cara súper fuerte de 5M](https://es.aliexpress.com/item/1005006277925414.html?sourceType=1&spm=a2g0o.wish-manage-home.0.0&gatewayAdapt=glo2esp).
+
+En la figura de abajo se pueden observar tres diferentes tipos de navajas utilizadas: Navaja cortada, Kanzawa cortada, Kanzawa de 50mm. 
+
+![Navajas](Figuras/IMG-20241008-WA0004.jpg)
 
 ***Tip***
 
