@@ -7,7 +7,7 @@ El diseño del prototipo, al igual que el diseño de la PCB o la programación, 
 ## Tabla de Contenidos
 1. [Descripción](#descripción)
 2. [Base latón](#base-latón)
-3. [PLA](#PLA)
+3. [PLA](#pla)
 
 ## Descripción
 
@@ -142,6 +142,10 @@ Ya se han colocado las paredes, motores, sensores, baterías, tapa y llantas; lo
 
 ![Montado](Figuras/IMG-20240125-WA0005.jpg)
 
+![Montado2](Figuras/IMG-20240111-WA0020.jpg)
+
+![Montado3](Figuras/IMG-20240111-WA0021.jpg)
+
 Es importante elegir el tipo de navaja adecuado. En las primeras versiones del prototipo, se utilizaban navajas de cúter pequeño, las cuales se cortaban a la medida de 50 mm. Más adelante, un compañero de competencia me regaló una navaja Kanzawa de 50 mm. Desde entonces, he utilizado este tipo de navajas, que son de origen japonés y un poco complicadas de conseguir, pero no imposible.
 
 Existen otras opciones, pero como con todo lo mencionado en este repositorio, dependerá del ingenio y creatividad que se apliquen al proyecto.
@@ -191,7 +195,7 @@ Una vez que se tiene la pieza impresa en 3D y la tapa trasera de aproximadamente
 
 Al finalizar, deberías tener un prototipo ensamblado similar al que se muestra en las siguientes imágenes, con una distribución de peso optimizada.
 
-![BSM](Figuras/IMG_0017.jpg)
+![BSM](Figuras/IMG_0017.JPG)
 
 ![BSM2](Figuras/1734462353384.jpeg)
 
@@ -199,3 +203,28 @@ Si jugaste bien con las medidas a la hora de diseñar, la PCB se podrá fijar co
 
 **Nota:** En la segunda figura se puede observar que el robot está al límite y aún no cuenta con el arrancador, por lo que se le tendría que quitar un poco de peso muerto para que, a la hora de colocar el arrancador, este no tenga problemas de homologación.
 
+Hasta aquí se presenta la opción utilizando una base de latón. Puedes modificar la base de latón, haciéndola un poco más pequeña y con mayor peso adelante, de manera que solo sea necesario colocar los sensores y demás componentes. También existe la posibilidad de no usar una base de latón y, en su lugar, combinar la idea de Base Sensores con la siguiente opción que se presentará. Todo dependerá del gusto y lo que se necesite.
+
+##PLA
+
+En esta sección seré breve, ya que el proceso de colocar los motores, elegir los sensores, seleccionar la navaja y fabricar la tapa frontal ya ha sido explicado. Por lo tanto, solo se presentará una explicación breve con algunas ideas sobre por qué realizarlo de esta manera.
+
+Puede presentarse el caso de que no se cuente con los recursos necesarios para obtener una base de latón. En este caso, una buena alternativa es diseñar una carcasa de PLA y añadir plomo como peso muerto. Esta opción, en mi opinión, ofrece un mayor margen para implementar ideas creativas.
+
+En el archivo microsumo_v10 se encuentra el diseño del último microsumo que realicé utilizando esta metodología. En ese entonces, usaba una batería Tattu de 7.4V 300mAh, sensores Pololu y aluminio como peso muerto, ya que no disponía de plomo. A decir verdad, este diseño me permitió obtener algunas victorias y alcanzar uno que otro podio en competencias.
+
+Sin embargo, siempre hay margen para mejorar. Por ejemplo, modificar completamente el chasis para utilizar baterías individuales, lo que ahorra espacio; emplear sensores RZ60S o continuar con Pololu; reducir las paredes del chasis; y agregar plomo en la parte delantera. Con estos ajustes, creo que el diseño sería altamente eficiente, ya que un compañero del equipo utiliza esta idea y le ha dado excelentes resultados.
+
+La idea es como la siguiente, tener el chasis de PLA y colocar plomo:
+
+![PLA5](Figuras/IMG-20241126-WA0009.jpg)
+
+En las siguientes dos figuras se muestran ideas de prototipos que fueron desarrollados, actualmente estas ideas están retiradas, pero pueden ser de ayuda como referencia y entendimiento de la opción presentada.
+
+![PLA1](Figuras/IMG-20230902-WA0017.jpg)
+
+![PLA2](Figuras/IMG-20230920-WA0015.jpg)
+
+
+
+![PLA6](Figuras/IMG-20241111-WA0016.jpg)
