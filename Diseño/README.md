@@ -156,7 +156,7 @@ En la figura de abajo se pueden observar tres diferentes tipos de navajas utiliz
 
 - Número de sensores: Este número puede variar dependiendo del gusto o las necesidades del diseño. Usualmente, he utilizado 4 sensores: uno para el piso y tres para la detección del oponente. La colocación también depende de lo que desees lograr. Puedes optar por poner uno que mire hacia enfrente y dos en los laterales, de forma que los emisores sean visibles pero los receptores no. O bien, puedes poner los receptores visibles y los emisores ocultos.
 - Colocación de la navaja: Para colocar la navaja, coloca un poco de cinta en la parte de la navaja, usando no más de la mitad de la superficie. Luego, pégala a la base. Con un espejo, coloca el robot encima y observa desde atrás para verificar que no entre luz, lo cual indicaría que la navaja está calibrada correctamente. Mueve el robot un poco para asegurarte de que la navaja no raspe el suelo. Después de cada combate, revisa que la navaja siga bien colocada. Si no es así, simplemente empuja la navaja hacia abajo desde el lado donde entra luz.  ***Este proceso requiere bastante practica y se va a ir mejorando con el paso de las competencias***
-- Añadir peso al frente: Si lo consideras necesario, puedes añadir peso al frente del robot. Lo ideal es llevar al robot a su límite máximo de peso, que debería estar entre 98 y 100 gramos como máximo. ~~Una mala práctica es llevar el robot al límite se homologué sin arrancador y cuando se coloque el arrancador te dé un peso de 101 gr. Pareciera poco, pero se nota la diferencia de peso~~.
+- Añadir peso al frente: Si lo consideras necesario, puedes añadir peso al frente del robot. Lo ideal es llevar al robot a su límite máximo de peso, que debería estar entre 98 y 100 gramos como máximo. ~~Una mala práctica es llevar el robot al límite, que se homologué sin arrancador y cuando se coloque el arrancador te dé un peso de 101 -102 gr. Pareciera poco, pero se nota la diferencia de peso~~.
 
 El resultado final que deberías de tener es algo como lo siguiente.
 
@@ -168,4 +168,34 @@ Los mismos robots pero en un angulo diferente.
 
 ### Base Sensores
 
+Para este diseño, la idea principal es sencilla: concentrar el mayor peso en la parte delantera del robot. Esto se logra mediante las siguientes modificaciones:
+
+- Quitar las paredes laterales: Eliminando el peso innecesario de las paredes laterales, se puede redistribuir el peso hacia la parte frontal.
+- Reducir la pared trasera: Disminuyendo su tamaño o grosor, se aligera la parte trasera.
+- Utilizar baterías más pequeñas: Un par de baterías de menor tamaño permitirá liberar espacio y peso, la betrias puden ser del mismo amperaje pero con diferentes dimensiones.
+
+Con estas optimizaciones, el peso liberado puede ser utilizado para añadir materiales como latón, plomo, u otros elementos pesados en la parte frontal del robot, actuando como peso muerto.
+
+El resultado sería un diseño como el que se ilustra en la siguiente figura.
+
+![BS](Figuras/20241219103248.png)
+
+Una vez que se tiene la pieza impresa en 3D y la tapa trasera de aproximadamente de un grosor de 0.5 mm, se procede con los siguientes pasos ya antes explicados:
+
+- Montar las piezas en la base de latón: Ambas partes deben fijarse con Kola-Loka
+- Colocar los componentes: Sigue el procedimiento explicado anteriormente para instalar los motores, sensores, baterías y la tapa delantera. Recuerda revisar que todo esté correctamente alineado y ajustado, sin interferencias entre los componentes.
+
+  ***Tip**
+  - Usa baterías de mínimo 100mah ya que he probado con baterías de 80mah y estas han fallado a la hora de estar en combate.
+  - Puedes rediseñar la tapa delantera, modificar la colocación de los motores e incluso ocupar las mismas baterías.
+
+Al finalizar, deberías tener un prototipo ensamblado similar al que se muestra en las siguientes imágenes, con una distribución de peso optimizada.
+
+![BSM](Figuras/IMG_0017.jpg)
+
+![BSM2](Figuras/1734462353384.jpeg)
+
+Si jugaste bien con las medidas a la hora de diseñar, la PCB se podrá fijar con cinta doble cara a los sensores (depende de los sensores que se ocupen).
+
+**Nota:** En la segunda figura se puede observar que el robot está al límite y aún no cuenta con el arrancador, por lo que se le tendría que quitar un poco de peso muerto para que, a la hora de colocar el arrancador, este no tenga problemas de homologación.
 
