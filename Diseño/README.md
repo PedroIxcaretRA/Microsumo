@@ -2,30 +2,33 @@
 
 El diseño del prototipo, al igual que el diseño de la PCB o la programación, evoluciona con el tiempo. Se prueba una cosa y otra, y aunque al principio puede que no se tenga un buen prototipo (o si), después de dos o tres competencias podrías identificar aspectos que necesiten cambios. Nuevas ideas y mejoras siempre surgen. Por eso, en esta parte del repositorio se presentará una idea general del diseño mecánico del robot, así como del ensamble del prototipo. Como en todo el repositorio, puedes seguir estos pasos al pie de la letra o adaptarlos según tus necesidades.
 
-***Aunque sé que dice "Diseño", y lo más probable es que se piense que aquí enseñaré cómo diseñar un microsumo, la realidad es que con los archivos que se están compartiendo ya se tiene una idea clara de cómo hacerlo. Por lo tanto, esta sección se centrará más en consejos prácticos y el ensamblaje del prototipo.***
+***Aunque dice "Diseño", y lo más probable es que se piense que aquí se enseñará a cómo diseñar un microsumo, la realidad es que con los archivos que se están compartiendo ya se puede tener una idea clara de cómo hacerlo. Por lo tanto, esta sección se centrará más en consejos prácticos y el ensamblaje del prototipo.***
 
 ## Tabla de Contenidos
 1. [Descripción](#descripción)
 2. [Base latón](#base-latón)
-3. [PLA](#pla)
+   - [Paredes](#paredes)
+     - [Ensamblaje](#ensamblaje)
+   - [Base sensores](#base-sensores)
+4. [PLA](#pla)
 
 ## Descripción
 
 El archivo base_microsumo_pro.rar contiene una base diseñada en SolidWorks (versión 2019), destinada a ser fabricada en latón. Puede ser enviada a maquilar en JLCPCB, PCBWAY, o cualquier otro lugar. Este archivo es totalmente modificable y lo puedes ajustar según tus necesidades.
 
-No es fundamental usar una base de latón en un microsumo, versiones anteriores que se han realizado, la carcasa del robot ha sido completamente de PLA con peso muerto (plomo), ha funcionado bastante bien, así que, si se prefiere usar PLA y plomo es una opción bastante viable, en el archivo Microsumo_v10.rar es una idea de lo que se usaba. Igual es totalmente modificable.
+No es fundamental usar una base de latón en un microsumo, versiones anteriores que se han realizado, el chasis del robot ha sido completamente de PLA con peso muerto (plomo), ha funcionado bastante bien, así que, si se prefiere usar PLA y plomo es una opción bastante viable, en el archivo Microsumo_v10.rar es una idea de lo que se usaba. Igual es totalmente modificable.
 
 ***Tip***
-- El ángulo donde se coloca la navaja generalmente varía entre 20° y 30° de inclinación. Como recomendación, se sugiere usar un ángulo de 27°.
+- El ángulo donde se coloca la navaja generalmente varía entre 20° y 30° de inclinación. Como recomendación, se sugiere usar un ángulo de 25°.
 
 ## Base latón
 
-Una vez que se tiene la base de latón en proceso de fabricación o en su posesión, ya sea que se haya mandado a hacer con la opción presentada, modificado el diseño existente o incluso creado uno propio, se procederá a diseñar la carcasa del prototipo. 
+Una vez que se tiene la base de latón en proceso de fabricación o en su posesión, ya sea que se haya mandado a fabricar la opción presentada, modificado el diseño existente o incluso creado una propia, se procederá a diseñar el chasis del prototipo. 
 
 ![Baselaton](Figuras/IMG-20231128-WA0016.jpg)
 
-Para esto, daré dos opciones que he utilizado, las cuales llamaremos *Paredes* y *Base Sensores*. 
-- Paredes: Como su nombre lo indica, se tendran las paredes laterales y trasera, fabricadas de PLA o cualquier otro filamento.
+Para esto, se darán dos opciones que hemos utilizado, las cuales llamaremos *Paredes* y *Base Sensores*. 
+- Paredes: Como su nombre lo indica, se tendrán las paredes laterales y trasera, fabricadas de PLA o cualquier otro filamento.
 - Base Sensores: consiste en una pequeña base donde se colocaran los sensores y la tapa frontal, también fabricada de PLA.
 
 En ambas opciones, la tapa frontal será construida de una herramienta conocida como [cuña](https://www.brochasexito.com.mx/productos/Accesorios/Cunas-Exito-de-Acero), esta herramienta se puede conseguir en COMEX (Mexico).
@@ -43,7 +46,7 @@ Aunque se pueden hacer mejoras, por ejemplo:
 - La medida de 28.5 mm podría ajustarse a 25 mm.
 - La altura de 30 mm podría reducirse a 25 mm o 27 mm.
 
-Estos cambios modificarían ciertas partes del diseño, pero considero que quedarían a la perfección. Es cuestión de experimentar con lo que se tiene y ajustar según las necesidades.
+Estos cambios modificarían ciertas partes del diseño, pero consideramos que quedarían a la perfección. Es cuestión de experimentar con lo que se tiene y ajustar según las necesidades.
 
 #### Ensamblaje
 
@@ -51,27 +54,27 @@ Se puede pintar la base o colocar una pegatina, ya sea en un acabado totalmente 
 
 ![Basepint](Figuras/IMG-20231206-WA0007.jpg)
 
-Una vez que se tienen las impresiones en 3D de las paredes, estas se fijan a la base de latón utilizando Kola-Loka. Coloquen pared por pared, con calma, para tener un mejor resultado. El resultado final debería verse de la siguiente manera.
+Una vez que se tienen las impresiones en 3D de las paredes, estas se fijan a la base de latón utilizando Kola-Loka. Colóquese pared por pared, con calma, para tener un mejor resultado. El resultado final debería verse de la siguiente manera.
 
 ![BasePar](Figuras/IMG-20231204-WA0007.jpg)
 
 A partir de aquí, el ensamblaje será el mismo si se utilizan motores N20 rectos, ya que existen diferentes modelos. ¿Qué significa que será el mismo? Justamente eso: sin importar cuál opción se utilice (Paredes o Base Sensores, con base de latón o PLA), la forma en la que se colocarán los motores y cómo se transmitirá la potencia será igual para todas las configuraciones. Por lo tanto, se explicará el proceso con el máximo detalle.
 
-La idea es colocar los motores comos se muestra en la figura de abajo. 
+La idea es colocar los motores como se muestra en la figura de abajo. 
 Para fijar los motores a la base, se utiliza Kola-Loka. Como sugerencia adicional, se podría agregar un poco de bicarbonato a la mezcla. Esto genera una sustancia más fuerte y resistente.
 
 ***Tip***
 
-- Supondremos que ya se cuentan con las llantas. Una sugerencia importante que deben seguir al pie de la letra es no fijar los motores al 100%. Utilicen únicamente la cantidad necesaria de Kola-Loka para que los motores queden semifijos y no se muevan.
-Una vez que estén semifijados, coloquen las llantas y verifiquen que no haya desnivel utilizando un espejo (por el reverso del mismo). Es fundamental asegurarse de que la parte donde se colocará la navaja quede recargada de manera uniforme sobre la superficie. Esto para que cuando se coloque la navaja no tengan un lado alzado.
+- Supondremos que ya se cuentan con las llantas. Una sugerencia importante que debes seguir al pie de la letra es no fijar los motores al 100%. Utiliza únicamente la cantidad necesaria de Kola-Loka para que los motores queden semifijos y no se muevan.
+Una vez que estén semifijados, coloca las llantas y verifica que no haya desnivel utilizando un espejo (por el reverso del mismo). Es fundamental asegurarse de que la parte donde se colocará la navaja quede recargada de manera uniforme sobre la superficie. Esto para que cuando se coloque la navaja no se tenga un lado alzado.
 
 ![Motores](Figuras/IMG-20231206-WA0005.jpg)
 
 Para lograr esto, hay un aspecto que se debe observar con detalle: debido a las medidas, los motores no pueden colocarse de forma colineal. La solución consiste en configurar el sistema de la siguiente manera: se utilizan dos engranajes del mismo tamaño, lo que permite tener una relación 1:1. En esta configuración, un engranaje está conectado al eje del motor y el otro a una caja de reducción.
 
-Existe otra forma de implementar esta configuración, que consiste en colocar un rodamiento en una pieza impresa en 3D y usar un eje de motor. Aunque esta opción resulta útil, en mi experiencia, no proporciona el resultado deseado. Por esta razón, se optó por utilizar una caja de reducción de los mismos motores, pero únicamente la última parte, que es la encargada de sostener el eje. Esta solución resulta bastante práctica y funcional.
+Existe otra forma de implementar esta configuración, que consiste en colocar un rodamiento en una pieza impresa en 3D y usar un eje de motor. Aunque esta opción resulta útil, en nuestra experiencia, no proporciona el resultado deseado. Por esta razón, se optó por utilizar una caja de reducción de los mismos motores, pero únicamente la última parte, que es la encargada de sostener el eje. Esta solución resulta bastante práctica y funcional.
 
-En las tres figuras de abajo se muestran ejemplos del sistema con rodamiento.
+En las tres figuras de abajo muestran ejemplos del sistema con rodamiento.
 
 ![Motores1](Figuras/20230301_175731.jpg)
 
@@ -81,11 +84,11 @@ En las tres figuras de abajo se muestran ejemplos del sistema con rodamiento.
 
 ***Tip***
 
-- Los rines y engranes pueden fabricarse en PLA. Personalmente, suelo utilizar rines de aluminio y engranajes de PLA. Sin embargo, en AliExpress he encontrado engranajes de latón, que podrían resultar bastante útiles dependiendo de la aplicación.
+- Los rines y engranes pueden fabricarse en PLA. Personalmente, solemos utilizar rines de aluminio y engranajes de PLA. Sin embargo, en AliExpress hemos encontrado engranajes de latón, que podrían resultar bastante útiles dependiendo de la aplicación.
 
-- En cuanto a las llantas, aquí en México las consigo a través de compañeros de otros equipos que las venden. Parece que siempre es un reto conseguir esas llantitas.
+- En cuanto a las llantas, aquí en México las conseguimos a través de compañeros de otros equipos que las venden. Parece que siempre es un reto conseguir esas llantitas.
 
-Para este punto, ya se deben tener fijadas las paredes y los motores, asegurándose de que no haya ningún desnivel. A continuación, se procederá con la colocación de los sensores, las baterías y la PCB.
+Para este punto, ya se deben de tener fijadas las paredes y los motores, asegurándose de que no haya ningún desnivel. A continuación, se procederá con la colocación de los sensores, las baterías y la PCB.
 
 Baterías:
 
@@ -105,6 +108,10 @@ En este caso, se utilizaron sensores Pololu, lo que permitió que el prototipo a
 
 ![S,P,B](Figuras/IMG-20240113-WA0026.jpg)
 
+![SPB2](Figuras/IMG-20240111-WA0020.jpg)
+
+![SPB3](Figuras/IMG-20240111-WA0021.jpg)
+
 Si se utilizan sensores Pololu, aquí van algunos consejos útiles:
 
 1. Diseñar una carcasa específica para los sensores:
@@ -118,11 +125,11 @@ Si se utilizan sensores Pololu, aquí van algunos consejos útiles:
 
 5. Características del sensor Pololu:
    - Pin de enable: Permite habilitar o deshabilitar el emisor del sensor según sea necesario.
-   - Potenciómetro (pot): Facilita la regulación de la distancia de detección.
+   - Potenciómetro (pot): Facilita la regulación de la distancia de detección. Generalmente a la mitad.
 
 PCB:
  
- - La PCB se fija a las paredes colocando un tornillo M3, se puede colocar un inserto en las paredes para que despues se coloque el tornillo.
+ - La PCB se fija a las paredes colocando un tornillo M3, se puede colocar un inserto en las paredes para que después se coloque el tornillo.
 
 En este paso, se coloca la PCB y, posteriormente, se sueldan los cables de los motores y sensores. Es importante soldar las baterías primero, ya que su posición puede dificultar la soldadura una vez que la PCB esté colocada. Alternativamente, puedes soldar todo el cableado antes de fijar la PCB para mayor comodidad. 
 
@@ -142,11 +149,7 @@ Ya se han colocado las paredes, motores, sensores, baterías, tapa y llantas; lo
 
 ![Montado](Figuras/IMG-20240125-WA0005.jpg)
 
-![Montado2](Figuras/IMG-20240111-WA0020.jpg)
-
-![Montado3](Figuras/IMG-20240111-WA0021.jpg)
-
-Es importante elegir el tipo de navaja adecuado. En las primeras versiones del prototipo, se utilizaban navajas de cúter pequeño, las cuales se cortaban a la medida de 50 mm. Más adelante, un compañero de competencia me regaló una navaja Kanzawa de 50 mm. Desde entonces, he utilizado este tipo de navajas, que son de origen japonés y un poco complicadas de conseguir, pero no imposible.
+Es importante elegir el tipo de navaja adecuado. En las primeras versiones del prototipo, utilizábamos navajas de cúter pequeño, las cuales se cortaban a la medida de 50 mm. Más adelante, un compañero de competencia me regaló una navaja Kanzawa de 50 mm. Desde entonces, hemos utilizado este tipo de navajas, que son de origen japonés y un poco complicadas de conseguir, pero no imposible.
 
 Existen otras opciones, pero como con todo lo mencionado en este repositorio, dependerá del ingenio y creatividad que se apliquen al proyecto.
 
@@ -158,7 +161,7 @@ En la figura de abajo se pueden observar tres diferentes tipos de navajas utiliz
 
 ***Tip***
 
-- Número de sensores: Este número puede variar dependiendo del gusto o las necesidades del diseño. Usualmente, he utilizado 4 sensores: uno para el piso y tres para la detección del oponente. La colocación también depende de lo que desees lograr. Puedes optar por poner uno que mire hacia enfrente y dos en los laterales, de forma que los emisores sean visibles pero los receptores no. O bien, puedes poner los receptores visibles y los emisores ocultos.
+- Número de sensores: Este número puede variar dependiendo del gusto o las necesidades del diseño. Usualmente, hemos utilizado de 3 a 4 sensores: uno para el piso y tres(dos) para la detección del oponente. La colocación también depende de lo que desees lograr. Puedes optar por poner uno que mire hacia enfrente y dos en los laterales, de forma que los emisores sean visibles pero los receptores no. O bien, puedes poner los receptores visibles y los emisores ocultos.
 - Colocación de la navaja: Para colocar la navaja, coloca un poco de cinta en la parte de la navaja, usando no más de la mitad de la superficie. Luego, pégala a la base. Con un espejo, coloca el robot encima y observa desde atrás para verificar que no entre luz, lo cual indicaría que la navaja está calibrada correctamente. Mueve el robot un poco para asegurarte de que la navaja no raspe el suelo. Después de cada combate, revisa que la navaja siga bien colocada. Si no es así, simplemente empuja la navaja hacia abajo desde el lado donde entra luz.  ***Este proceso requiere bastante practica y se va a ir mejorando con el paso de las competencias***
 - Añadir peso al frente: Si lo consideras necesario, puedes añadir peso al frente del robot. Lo ideal es llevar al robot a su límite máximo de peso, que debería estar entre 98 y 100 gramos como máximo. ~~Una mala práctica es llevar el robot al límite, que se homologué sin arrancador y cuando se coloque el arrancador te dé un peso de 101 -102 gr. Pareciera poco, pero se nota la diferencia de peso~~.
 
@@ -176,7 +179,7 @@ Para este diseño, la idea principal es sencilla: concentrar el mayor peso en la
 
 - Quitar las paredes laterales: Eliminando el peso innecesario de las paredes laterales, se puede redistribuir el peso hacia la parte frontal.
 - Reducir la pared trasera: Disminuyendo su tamaño o grosor, se aligera la parte trasera.
-- Utilizar baterías más pequeñas: Un par de baterías de menor tamaño permitirá liberar espacio y peso, la betrias puden ser del mismo amperaje pero con diferentes dimensiones.
+- Utilizar baterías más pequeñas: Un par de baterías de menor tamaño permitirá liberar espacio y peso, las beterías pueden ser del mismo amperaje, pero con diferentes dimensiones.
 
 Con estas optimizaciones, el peso liberado puede ser utilizado para añadir materiales como latón, plomo, u otros elementos pesados en la parte frontal del robot, actuando como peso muerto.
 
@@ -190,7 +193,7 @@ Una vez que se tiene la pieza impresa en 3D y la tapa trasera de aproximadamente
 - Colocar los componentes: Sigue el procedimiento explicado anteriormente para instalar los motores, sensores, baterías y la tapa delantera. Recuerda revisar que todo esté correctamente alineado y ajustado, sin interferencias entre los componentes.
 
   ***Tip**
-  - Usa baterías de mínimo 100mah ya que he probado con baterías de 80mah y estas han fallado a la hora de estar en combate.
+  - Usa baterías de mínimo 100mah ya que hemos probado con baterías de 80mah y estas han fallado a la hora de estar en combate.
   - Puedes rediseñar la tapa delantera, modificar la colocación de los motores e incluso ocupar las mismas baterías.
 
 Al finalizar, deberías tener un prototipo ensamblado similar al que se muestra en las siguientes imágenes, con una distribución de peso optimizada.
@@ -205,19 +208,21 @@ Si jugaste bien con las medidas a la hora de diseñar, la PCB se podrá fijar co
 
 Hasta aquí se presenta la opción utilizando una base de latón. Puedes modificar la base de latón, haciéndola un poco más pequeña y con mayor peso adelante, de manera que solo sea necesario colocar los sensores y demás componentes. También existe la posibilidad de no usar una base de latón y, en su lugar, combinar la idea de Base Sensores con la siguiente opción que se presentará. Todo dependerá del gusto y lo que se necesite.
 
-##PLA
+## PLA
 
-En esta sección seré breve, ya que el proceso de colocar los motores, elegir los sensores, seleccionar la navaja y fabricar la tapa frontal ya ha sido explicado. Por lo tanto, solo se presentará una explicación breve con algunas ideas sobre por qué realizarlo de esta manera.
+En esta sección seremos breve, ya que el proceso de colocar los motores, elegir los sensores, seleccionar la navaja y fabricar la tapa frontal ya ha sido explicado. Por lo tanto, solo se presentará una explicación breve con algunas ideas sobre por qué realizarlo de esta manera.
 
-Puede presentarse el caso de que no se cuente con los recursos necesarios para obtener una base de latón. En este caso, una buena alternativa es diseñar una carcasa de PLA y añadir plomo como peso muerto. Esta opción, en mi opinión, ofrece un mayor margen para implementar ideas creativas.
+Puede presentarse el caso de que no se cuente con los recursos necesarios para obtener una base de latón. En este caso, una buena alternativa es diseñar un chasis de PLA y añadir plomo como peso muerto. Esta opción, en nuestra opinión, ofrece un mayor margen para implementar ideas creativas.
 
-En el archivo microsumo_v10 se encuentra el diseño del último microsumo que realicé utilizando esta metodología. En ese entonces, usaba una batería Tattu de 7.4V 300mAh, sensores Pololu y aluminio como peso muerto, ya que no disponía de plomo. A decir verdad, este diseño me permitió obtener algunas victorias y alcanzar uno que otro podio en competencias.
+En el archivo microsumo_v10 se encuentra el diseño del último microsumo que uno del equipo realizó utilizando esta metodología. En ese entonces, usaba una batería Tattu de 7.4V 300mAh, sensores Pololu y aluminio como peso muerto, ya que no disponía de plomo. A decir verdad, este diseño le permitió obtener algunas victorias y alcanzar uno que otro podio en competencias.
 
-Sin embargo, siempre hay margen para mejorar. Por ejemplo, modificar completamente el chasis para utilizar baterías individuales, lo que ahorra espacio; emplear sensores RZ60S o continuar con Pololu; reducir las paredes del chasis; y agregar plomo en la parte delantera. Con estos ajustes, creo que el diseño sería altamente eficiente, ya que un compañero del equipo utiliza esta idea y le ha dado excelentes resultados.
+Sin embargo, siempre hay margen para mejorar. Por ejemplo, modificar completamente el chasis para utilizar baterías individuales, lo que ahorra espacio; emplear sensores RZ60S o continuar con Pololu; reducir las paredes del chasis; y agregar plomo en la parte delantera. Con estos ajustes, el diseño sería más eficiente, ya que un compañero del equipo utiliza esta idea y le ha dado excelentes resultados.
 
 La idea es como la siguiente, tener el chasis de PLA y colocar plomo:
 
 ![PLA5](Figuras/IMG-20241126-WA0009.jpg)
+
+El demás ensamblaje seria el mismo.
 
 En las siguientes dos figuras se muestran ideas de prototipos que fueron desarrollados, actualmente estas ideas están retiradas, pero pueden ser de ayuda como referencia y entendimiento de la opción presentada.
 
@@ -225,6 +230,8 @@ En las siguientes dos figuras se muestran ideas de prototipos que fueron desarro
 
 ![PLA2](Figuras/IMG-20230920-WA0015.jpg)
 
-
+En la siguiente figura se muestra la idea actual desarrollada por un compañero.
 
 ![PLA6](Figuras/IMG-20241111-WA0016.jpg)
+
+Como se puede observar se dio una explicación lo más clara posible, si surgiera alguna duda puedes contactar con los autores de este repositorio, esperamos que todo esto te ayude en el diseño de tu prototipo.
