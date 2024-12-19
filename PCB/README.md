@@ -1,5 +1,5 @@
 # PCB
-Obtener una PCB funcional para cualquier prototipo que se este desarrollando puede ser una tarea significativa, ya que requiere tiempo, investigación y numerosas pruebas. Estar seguro de que el prototipo que se tiene será el último antes de mandarlo a fabricar es crucial. Es por eso que en esta sección del repositorio, te comparto una opción viable que se podría considerar a la hora de realizar un microsumo.
+Obtener una PCB funcional para cualquier prototipo que se este desarrollando puede ser una tarea significativa, ya que requiere tiempo, investigación y numerosas pruebas. Estar seguro de que el prototipo que se tiene será el último antes de mandarlo a fabricar es crucial. Es por eso que en esta sección del repositorio, te compartimos una opción viable que se podría considerar a la hora de realizar un microsumo.
 
 ## Tabla de Contenidos
 1. [Descripción](#descripción)
@@ -10,7 +10,8 @@ Obtener una PCB funcional para cualquier prototipo que se este desarrollando pue
 ## Descripción
 Como se mencionó anteriormente, esta es una tarea significativa. Si logras encontrar una PCB comercial, el proceso será mucho más sencillo, ya que alguien más habrá realizado este trabajo por ti.
 
-En caso de que no se tenga acceso a una, aquí te comparto una PCB diseñada específicamente para este propósito. Sus dimensiones son 45 mm x 25 mm, lo que la hace perfecta para las especificaciones de un microsumo. Esta PCB fue diseñada en EasyEDA, y puedes cargar el archivo Gerber en el servicio de JLCPCB para su fabricación.
+En caso de que no se tenga acceso a una, aquí te compartimos una PCB diseñada específicamente para este propósito. Sus dimensiones son 45 mm x 25 mm, lo que la hace perfecta para las especificaciones de un 
+microsumo. Esta PCB fue diseñada en EasyEDA, y puedes cargar el archivo Gerber en el servicio de JLCPCB para su fabricación.
 
 Es muy posible que cuando encuentres este repositorio, ya sea por un video, una investigación o cualquier otro medio, no se tenga el acceso a los componentes necesarios. Por ello, se incluye una sección del esquemático para que se pueda replicar la PCB.
 
@@ -18,7 +19,7 @@ Si se es nuevo en este mundo, lo más probable es que debas investigar y buscar 
 
 En cuanto a proveedores, se sugiere LCSC Electronics, que forma parte de JLCPCB, o también Aliexpress como alternativa.
 
-Si no se tiene la experiencia soldando PCBs, se recomienda tomarlo con calma y tener paciencia. Soldar requiere práctica, pero es algo que se puede aprender desde cero. Personalmente, todas mis PCBs las he ensamblado usando únicamente un cautín RADOX, y ha funcionado perfectamente. 
+Si no se tiene la experiencia soldando PCBs, se recomienda tomarlo con calma y tener paciencia. Soldar requiere práctica, pero es algo que se puede aprender desde cero. Personalmente, todas las PCBs que hemos ensamblado, han sido utlizando únicamente un cautín. 
 
 Por ultimo, la placa tiene como mCU un Atmega328p-au por lo que se puede programar usando el IDE de Arduino. En la sección de PCB MOCteam se explica como cargar un programa usando un Arduino nano.
 
