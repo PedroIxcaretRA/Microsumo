@@ -1,4 +1,4 @@
-//MOCTEAM-Micro_BIT
+//MOCTEAM-Micro
 //rgb pins
 #include <FastLED.h>
 #define NUM_LEDS 2
@@ -93,7 +93,6 @@ void loop() {
   }
 
   while (starr == HIGH) {
-    for (int i = 0; i < 180000; i++) {
       starr = digitalRead(arr);
       floor_move();
       if (starr == LOW) {
@@ -101,8 +100,6 @@ void loop() {
         x = 0;
         break;
       }
-      delay(1);
-    }
   }
   stopB();
   digitalWrite(led, LOW);
@@ -124,33 +121,6 @@ void conditions(int countc) {
   switch (countc) {
     case 1:
       one();
-      break;
-    case 2:
-      two();
-      break;
-    case 3:
-      three();
-      break;
-    case 4:
-      four();
-      break;
-    case 5:
-      five();
-      break;
-    case 6:
-      six();
-      break;
-    case 7:
-      seven();
-      break;
-    case 8:
-      eight();
-      break;
-    case 9:
-      nine();
-      break;
-    case 10:
-      ten();
       break;
     default:
       atacar();
@@ -285,121 +255,10 @@ void one() {
   atacar();
 }
 
-void two() {
-  while (x < 1) {
-    left(205, 205);
-    delay(55);
-    x = x + 1;
-  }
-  atacar();
-}
-
-void three() {
-  while (x < 1) {
-    left(205, 205);
-    delay(102);
-    x = x + 1;
-  }
-  atacar();
-}
-
-void four() {
-  while (x < 1) {
-    for (int h = 0; h <= 255; h++) {
-      forwards(h, h);
-      delay(2);
-      if (h == 254) { break; }
-    }
-    x = x + 1;
-  }
-  atacar();
-}
-
-void five() {
-  while (x < 1) {
-    right(205, 205);
-    delay(30);
-    forwards(205, 205);
-    delay(200);
-    left(205, 205);
-    delay(70);
-    stopB();
-    delay(20);
-    x = x + 1;
-  }
-  atacar();
-}
-
-void six() {
-  while (x < 1) {
-    left(205, 205);
-    delay(30);
-    forwards(205, 205);
-    delay(200);
-    right(205, 205);
-    delay(70);
-    stopB();
-    delay(20);
-    x = x + 1;
-  }
-  atacar();
-}
-
-void seven() {
-  while (x < 1) {
-    right(205, 205);
-    delay(30);
-    forwards(205, 205);
-    delay(200);
-    left(205, 205);
-    delay(90);
-    forwards(205, 205);
-    delay(150);
-    stopB();
-    delay(20);
-    x = x + 1;
-  }
-  atacar();
-}
-
-void eight() {
-  while (x < 1) {
-    left(205, 205);
-    delay(30);
-    forwards(205, 205);
-    delay(200);
-    right(205, 205);
-    delay(85);
-    forwards(205, 205);
-    delay(100);
-    stopB();
-    delay(50);
-    x = x + 1;
-  }
-  atacar();
-}
-
-void nine() {
-  while (x < 1) {
-    forwards(255,248);
-    delay(200);
-    x = x + 1;
-  }
-  atacar();
-}
-
-void ten() {
-  while (x < 1) {
-    forwards(248,255);
-    delay(200);
-    x = x + 1;
-  }
-  atacar();
-}
 //---------------------------------------
 
 void move() {
-  backwards(205, 205);  //205,215
+  backwards(205, 205);
   delay(100);
   right(205, 205);
   delay(100);
