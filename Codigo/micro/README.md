@@ -2,6 +2,16 @@
 
 Existen muchas formas de programar, algunas más eficientes que otras, o que utilizan más o menos recursos. El código que se presenta en esta sección tiene como objetivo servir de referencia al momento de crear uno propio. Se asumirá que el lector cuenta con conocimientos previos de programación, por lo que se proporcionará una explicación breve del código para facilitar su comprensión y posible adaptación.
 
+**Nota:**
+
+- Si estás utilizando la PCB presentada y cargas el código tal cual está, respetando los pines donde se conectan los sensores, el código debería funcionar sin problemas. Es posible que los motores estén invertidos, pero esto sería cuestión de soldar y cambiarlos.
+
+- El proceso de carga del programa se explica en la sección de PCB.
+
+- Si deseas probar sensor por sensor y los motores, te dejo tres archivos de prueba. Además, puedes crear tus propios archivos si lo deseas.
+
+- La libreria de FASTLED te tocara buscarla, y experienta con ella para modificar los colores.
+
 ## Tabla de contenidos
 
 1. [Declaración](#declaración)
@@ -98,3 +108,4 @@ Por último, se tienen las funciones para la dirección de los motores. Existen 
 ![motor](Figuras/123358.png)
 
 Fue una explicación bastante breve pero esperamos que sea entendida y te sirva a la hora de realizar un prototipo de esta categoria.
+Cualquier duda puedes contactar a los creadores de este repositoiro.
